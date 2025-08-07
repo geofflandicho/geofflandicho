@@ -1,0 +1,21 @@
+.filter-controls {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.search-input,
+.category-filter,
+.status-filter {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+@media (min-width: 600px) {
+  .filter-controls {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+}

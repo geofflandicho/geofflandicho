@@ -1,0 +1,40 @@
+:root {
+  --high-priority: #e74c3c;
+  --medium-priority: #f39c12;
+  --low-priority: #2ecc71;
+  --overdue: #e74c3c;
+  --completed: #95a5a6;
+  --primary: #3498db;
+  --danger: #e74c3c;
+  --success: #2ecc71;
+  --light-gray: #ecf0f1;
+  --dark-gray: #7f8c8d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+} 
